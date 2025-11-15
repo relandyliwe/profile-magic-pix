@@ -5,18 +5,18 @@ export const About = () => {
   const features = [
     {
       icon: Code2,
-      title: "Clean Code",
-      description: "Writing maintainable, efficient, and scalable code that stands the test of time."
+      title: "Pengembangan Kompetensi",
+      description: "Mengembangkan keahlian teknis melalui pembelajaran berkelanjutan dan sertifikasi."
     },
     {
       icon: Palette,
-      title: "Design Focus",
-      description: "Creating beautiful, intuitive interfaces that users love to interact with."
+      title: "Solusi User-Friendly",
+      description: "Menciptakan solusi teknologi yang aman, efisien, dan mudah digunakan sesuai standar industri."
     },
     {
       icon: Rocket,
-      title: "Fast Delivery",
-      description: "Delivering high-quality projects on time without compromising on excellence."
+      title: "Profesionalisme",
+      description: "Menjaga integritas, etika kerja, dan berkolaborasi efektif dengan tim dan stakeholder."
     }
   ];
 
@@ -24,9 +24,9 @@ export const About = () => {
     <section id="about" className="py-20 px-4">
       <div className="container mx-auto max-w-6xl">
         <div className="text-center space-y-4 mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold">About Me</h2>
+          <h2 className="text-4xl md:text-5xl font-bold">Profil</h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Passionate about creating exceptional digital experiences through code and design
+            Asal: Minahasa Selatan, Kecamatan Tumpaan, Desa Popontolen
           </p>
         </div>
         
@@ -51,12 +51,41 @@ export const About = () => {
         </div>
         
         <Card className="p-8 md:p-12 shadow-elegant">
-          <p className="text-lg leading-relaxed text-muted-foreground">
-            I'm a creative professional with a passion for building beautiful, functional web applications. 
-            With expertise in modern web technologies and a keen eye for design, I transform ideas into 
-            engaging digital experiences. I believe in the power of clean code, thoughtful design, and 
-            continuous learning to create solutions that make a difference.
-          </p>
+          <div className="space-y-6">
+            <div>
+              <h3 className="text-2xl font-semibold mb-3">Visi</h3>
+              <p className="text-lg leading-relaxed text-muted-foreground">
+                Menjadi profesional Sistem Informasi yang mampu menghadirkan solusi digital inovatif, efisien, 
+                dan berkelanjutan untuk mendukung transformasi digital organisasi.
+              </p>
+            </div>
+            
+            <div>
+              <h3 className="text-2xl font-semibold mb-3">Misi</h3>
+              <ul className="space-y-3 text-muted-foreground">
+                <li className="flex gap-3">
+                  <span className="text-primary mt-1">•</span>
+                  <span>Mengembangkan kompetensi teknis dan analitis melalui pembelajaran berkelanjutan.</span>
+                </li>
+                <li className="flex gap-3">
+                  <span className="text-primary mt-1">•</span>
+                  <span>Menciptakan solusi teknologi yang aman, user-friendly, dan sesuai standar industri.</span>
+                </li>
+                <li className="flex gap-3">
+                  <span className="text-primary mt-1">•</span>
+                  <span>Menjaga integritas, profesionalisme, dan etika kerja dalam setiap proses pekerjaan.</span>
+                </li>
+                <li className="flex gap-3">
+                  <span className="text-primary mt-1">•</span>
+                  <span>Berkolaborasi secara efektif dengan tim serta berkomunikasi jelas dengan stakeholder.</span>
+                </li>
+                <li className="flex gap-3">
+                  <span className="text-primary mt-1">•</span>
+                  <span>Memberikan kontribusi nyata terhadap peningkatan kinerja dan produktivitas perusahaan melalui implementasi teknologi.</span>
+                </li>
+              </ul>
+            </div>
+          </div>
         </Card>
       </div>
     </section>
