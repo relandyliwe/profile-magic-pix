@@ -25,10 +25,13 @@ export const Hero = () => {
           
           <div className="space-y-4">
             <h1 className="text-5xl md:text-7xl font-bold tracking-tight">
-              Hi, I'm <span className="gradient-primary bg-clip-text text-transparent">Your Name</span>
+              Hi, I'm <span className="gradient-primary bg-clip-text text-transparent">Relandy Liwe</span>
             </h1>
             <p className="text-xl md:text-2xl text-muted-foreground max-w-2xl mx-auto">
-              Creative Developer & Designer crafting beautiful digital experiences
+              Mahasiswa Sistem Informasi dari Minahasa Selatan
+            </p>
+            <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
+              Fakultas Ilmu Komputer - Jurusan Sistem Informasi
             </p>
           </div>
           
