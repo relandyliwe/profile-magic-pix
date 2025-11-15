@@ -11,26 +11,27 @@ export const Contact = () => {
   };
 
   return (
-    <section id="contact" className="py-20 px-4 bg-muted/30">
+    <section id="contact" className="py-24 px-4 bg-muted/30">
       <div className="container mx-auto max-w-6xl">
-        <div className="text-center space-y-4 mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold">Get In Touch</h2>
-          <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Have a project in mind? Let's work together to create something amazing
+        <div className="text-center space-y-4 mb-20">
+          <p className="text-primary font-semibold text-sm tracking-widest uppercase">Kontak</p>
+          <h2 className="text-4xl md:text-5xl font-bold">Mari Terhubung</h2>
+          <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
+            Tertarik untuk berkolaborasi? Jangan ragu untuk menghubungi saya
           </p>
         </div>
         
         <div className="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
           <div className="space-y-6">
-            <Card className="p-6 shadow-elegant">
-              <h3 className="text-2xl font-semibold mb-6">Contact Information</h3>
+            <Card className="p-8 shadow-elegant border-2">
+              <h3 className="text-2xl font-semibold mb-8">Informasi Kontak</h3>
               
               <div className="space-y-4">
                 <a 
                   href="mailto:your.email@example.com"
-                  className="flex items-center gap-4 p-4 rounded-lg hover:bg-muted transition-smooth group"
+                  className="flex items-center gap-4 p-4 rounded-xl hover:bg-muted transition-slow group"
                 >
-                  <div className="w-12 h-12 rounded-lg gradient-primary flex items-center justify-center group-hover:scale-110 transition-smooth">
+                  <div className="w-14 h-14 rounded-xl gradient-primary flex items-center justify-center group-hover:scale-110 transition-smooth shadow-soft">
                     <Mail className="w-6 h-6 text-white" />
                   </div>
                   <div>
@@ -43,9 +44,9 @@ export const Contact = () => {
                   href="https://linkedin.com"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="flex items-center gap-4 p-4 rounded-lg hover:bg-muted transition-smooth group"
+                  className="flex items-center gap-4 p-4 rounded-xl hover:bg-muted transition-slow group"
                 >
-                  <div className="w-12 h-12 rounded-lg gradient-primary flex items-center justify-center group-hover:scale-110 transition-smooth">
+                  <div className="w-14 h-14 rounded-xl gradient-primary flex items-center justify-center group-hover:scale-110 transition-smooth shadow-soft">
                     <Linkedin className="w-6 h-6 text-white" />
                   </div>
                   <div>
@@ -58,9 +59,9 @@ export const Contact = () => {
                   href="https://github.com"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="flex items-center gap-4 p-4 rounded-lg hover:bg-muted transition-smooth group"
+                  className="flex items-center gap-4 p-4 rounded-xl hover:bg-muted transition-slow group"
                 >
-                  <div className="w-12 h-12 rounded-lg gradient-primary flex items-center justify-center group-hover:scale-110 transition-smooth">
+                  <div className="w-14 h-14 rounded-xl gradient-primary flex items-center justify-center group-hover:scale-110 transition-smooth shadow-soft">
                     <Github className="w-6 h-6 text-white" />
                   </div>
                   <div>
@@ -72,13 +73,13 @@ export const Contact = () => {
             </Card>
           </div>
           
-          <Card className="p-6 shadow-elegant">
-            <h3 className="text-2xl font-semibold mb-6">Send a Message</h3>
+          <Card className="p-8 shadow-elegant border-2">
+            <h3 className="text-2xl font-semibold mb-8">Kirim Pesan</h3>
             
             <form onSubmit={handleSubmit} className="space-y-4">
               <div>
                 <Input 
-                  placeholder="Your Name" 
+                  placeholder="Nama Anda" 
                   required
                   className="h-12"
                 />
@@ -87,7 +88,7 @@ export const Contact = () => {
               <div>
                 <Input 
                   type="email"
-                  placeholder="Your Email" 
+                  placeholder="Email Anda"
                   required
                   className="h-12"
                 />
@@ -95,7 +96,7 @@ export const Contact = () => {
               
               <div>
                 <Input 
-                  placeholder="Subject" 
+                  placeholder="Subjek" 
                   required
                   className="h-12"
                 />
@@ -103,7 +104,7 @@ export const Contact = () => {
               
               <div>
                 <Textarea 
-                  placeholder="Your Message" 
+                  placeholder="Pesan Anda"
                   required
                   className="min-h-[150px] resize-none"
                 />
