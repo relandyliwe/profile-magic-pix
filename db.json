@@ -1,0 +1,236 @@
+{
+  "profile": {
+    "name": "Relandy Liwe",
+    "title": "Mahasiswa Sistem Informasi",
+    "tagline": "Dari Minahasa Selatan, berfokus pada pengembangan solusi digital yang inovatif dan berorientasi pada transformasi teknologi",
+    "photo": "/images/profile.jpg",
+    "location": "Minahasa Selatan",
+    "email": "relandy@example.com",
+    "phone": "+62 xxx xxxx xxxx",
+    "socialMedia": {
+      "linkedin": "https://linkedin.com/in/relandyliwe",
+      "github": "https://github.com/relandyliwe",
+      "instagram": "https://instagram.com/relandyliwe",
+      "twitter": "https://twitter.com/relandyliwe"
+    }
+  },
+  
+  "about": {
+    "description": "Saya adalah mahasiswa Sistem Informasi yang passionate dalam pengembangan solusi digital. Dengan latar belakang dari Minahasa Selatan, saya berkomitmen untuk menciptakan inovasi teknologi yang memberikan dampak positif bagi masyarakat.",
+    "vision": "Menjadi profesional IT yang mampu menghadirkan solusi teknologi inovatif untuk transformasi digital Indonesia",
+    "interests": [
+      "Web Development",
+      "Mobile Development",
+      "UI/UX Design",
+      "Data Analytics",
+      "Cloud Computing"
+    ]
+  },
+  
+  "skills": [
+    {
+      "id": 1,
+      "category": "Programming Languages",
+      "items": [
+        {
+          "name": "JavaScript",
+          "level": 85,
+          "icon": "javascript.svg"
+        },
+        {
+          "name": "Python",
+          "level": 80,
+          "icon": "python.svg"
+        },
+        {
+          "name": "PHP",
+          "level": 75,
+          "icon": "php.svg"
+        },
+        {
+          "name": "Java",
+          "level": 70,
+          "icon": "java.svg"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "category": "Web Technologies",
+      "items": [
+        {
+          "name": "HTML/CSS",
+          "level": 90,
+          "icon": "html.svg"
+        },
+        {
+          "name": "React.js",
+          "level": 80,
+          "icon": "react.svg"
+        },
+        {
+          "name": "Node.js",
+          "level": 75,
+          "icon": "nodejs.svg"
+        },
+        {
+          "name": "Laravel",
+          "level": 70,
+          "icon": "laravel.svg"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "category": "Database",
+      "items": [
+        {
+          "name": "MySQL",
+          "level": 85,
+          "icon": "mysql.svg"
+        },
+        {
+          "name": "MongoDB",
+          "level": 75,
+          "icon": "mongodb.svg"
+        },
+        {
+          "name": "PostgreSQL",
+          "level": 70,
+          "icon": "postgresql.svg"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "category": "Tools & Others",
+      "items": [
+        {
+          "name": "Git",
+          "level": 85,
+          "icon": "git.svg"
+        },
+        {
+          "name": "Figma",
+          "level": 80,
+          "icon": "figma.svg"
+        },
+        {
+          "name": "Docker",
+          "level": 65,
+          "icon": "docker.svg"
+        }
+      ]
+    }
+  ],
+  
+  "education": [
+    {
+      "id": 1,
+      "institution": "Universitas [Nama Universitas]",
+      "degree": "S1 Sistem Informasi",
+      "period": "2021 - Sekarang",
+      "location": "Sulawesi Utara",
+      "gpa": "3.xx",
+      "description": "Fokus pada pengembangan sistem informasi, analisis data, dan transformasi digital",
+      "achievements": [
+        "Aktif dalam organisasi kemahasiswaan",
+        "Mengikuti berbagai kompetisi teknologi",
+        "Terlibat dalam proyek pengembangan sistem"
+      ]
+    },
+    {
+      "id": 2,
+      "institution": "SMA [Nama SMA]",
+      "degree": "Ilmu Pengetahuan Alam",
+      "period": "2018 - 2021",
+      "location": "Minahasa Selatan",
+      "description": "Mengembangkan fondasi dalam matematika dan sains"
+    }
+  ],
+  
+  "experience": [
+    {
+      "id": 1,
+      "position": "Web Developer Intern",
+      "company": "[Nama Perusahaan]",
+      "period": "Juni 2024 - Agustus 2024",
+      "location": "Manado",
+      "description": "Mengembangkan dan memelihara website perusahaan menggunakan teknologi modern",
+      "responsibilities": [
+        "Membuat fitur baru pada website",
+        "Melakukan maintenance dan bug fixing",
+        "Berkolaborasi dengan tim design"
+      ]
+    }
+  ],
+  
+  "projects": [
+    {
+      "id": 1,
+      "title": "Sistem Informasi Akademik",
+      "description": "Aplikasi web untuk manajemen data akademik mahasiswa",
+      "technologies": ["Laravel", "MySQL", "Bootstrap"],
+      "image": "/images/project1.jpg",
+      "link": "https://github.com/relandyliwe/project1",
+      "category": "Web Application",
+      "featured": true
+    },
+    {
+      "id": 2,
+      "title": "E-Commerce Platform",
+      "description": "Platform e-commerce untuk UMKM lokal",
+      "technologies": ["React", "Node.js", "MongoDB"],
+      "image": "/images/project2.jpg",
+      "link": "https://github.com/relandyliwe/project2",
+      "category": "Web Application",
+      "featured": true
+    },
+    {
+      "id": 3,
+      "title": "Mobile Attendance App",
+      "description": "Aplikasi mobile untuk sistem presensi karyawan",
+      "technologies": ["React Native", "Firebase"],
+      "image": "/images/project3.jpg",
+      "link": "https://github.com/relandyliwe/project3",
+      "category": "Mobile Application",
+      "featured": false
+    }
+  ],
+  
+  "certifications": [
+    {
+      "id": 1,
+      "name": "Web Development Bootcamp",
+      "issuer": "[Nama Lembaga]",
+      "date": "2023",
+      "credentialId": "CERT-12345",
+      "link": "https://example.com/cert/12345"
+    },
+    {
+      "id": 2,
+      "name": "Database Management",
+      "issuer": "[Nama Lembaga]",
+      "date": "2023",
+      "credentialId": "CERT-67890",
+      "link": "https://example.com/cert/67890"
+    }
+  ],
+  
+  "contact": {
+    "email": "relandy@example.com",
+    "phone": "+62 xxx xxxx xxxx",
+    "location": "Minahasa Selatan, Sulawesi Utara",
+    "availability": "Terbuka untuk peluang kerja dan kolaborasi proyek",
+    "preferredContact": "email"
+  },
+  
+  "settings": {
+    "theme": "light",
+    "language": "id",
+    "siteTitle": "Relandy Liwe - Portfolio",
+    "siteDescription": "Portfolio website Relandy Liwe, Mahasiswa Sistem Informasi yang berfokus pada pengembangan solusi digital inovatif",
+    "siteKeywords": ["portfolio", "sistem informasi", "web developer", "relandy liwe"],
+    "analyticsId": "GA-XXXXXXXXX"
+  }
+}
